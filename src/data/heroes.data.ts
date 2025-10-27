@@ -6,18 +6,20 @@
 //     Marvel, // 1
 // }
 // v3
+
+// @ts-ignore
 enum Owner {
     DC = 'DC',
     Marvel = 'Marvel'
 }
 
-interface Hero {
+export interface Hero {
     id: number;
     name: string;
     owner: Owner;
 }
 
-const heroes: Hero[] = [
+export const heroes: Hero[] = [
   {
     id: 1,
     name: 'Batman',
@@ -45,4 +47,4 @@ const heroes: Hero[] = [
   }
 ];
 
-console.log(heroes);
+export default heroes;
