@@ -8,7 +8,7 @@
 // v3
 
 // @ts-ignore
-enum Owner {
+export enum Owner {
     DC = 'DC',
     Marvel = 'Marvel'
 }
